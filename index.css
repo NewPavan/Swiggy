@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 200px;
+}
+
+.Menu>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Menu>ul>li {
+    padding: 10px;
+    margin: 10px
+}
+
+.card {
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+.Card-Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.SearchButton {
+    padding: 10px;
+}
+
+.image {
+    height: 130px;
+    width: 200px;
+}
